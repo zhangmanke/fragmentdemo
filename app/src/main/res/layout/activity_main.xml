@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<fragment-->
+    <!--android:id="@+id/id_fragment_title"-->
+    <!--android:name="com.soft.fragmentdemo.fragment.TitleFragment"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="45dp"-->
+    <!--tools:layout="@layout/fragment_title" />-->
+
+    <!--<fragment-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:layout_below="@id/id_fragment_title"-->
+    <!--android:name="com.soft.fragmentdemo.fragment.ContentFragment"-->
+    <!--android:id="@+id/id_fragment_content"-->
+    <!--tools:layout="@layout/fragment_content" />-->
+    <FrameLayout
+        android:id="@+id/id_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </FrameLayout>
+
+</RelativeLayout>
